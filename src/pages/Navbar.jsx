@@ -25,6 +25,9 @@ import Search from './customer/components/Search';
 import ProductsMenu from './customer/components/ProductsMenu';
 import { updateCustomer } from '../redux/userHandle';
 
+
+const someVariable = someValue;
+
 const Navbar = () => {
     const { currentUser, currentRole } = useSelector(state => state.user);
 
@@ -50,11 +53,11 @@ const Navbar = () => {
     const [isCartOpen, setIsCartOpen] = React.useState(false);
 
     // Cart
-    const handleOpen Cart = () => {
+    const handleOpenCart = () => {
         setIsCartOpen(true);
     };
 
-    const handleOpenCart = () => {
+    const handleCloseCart = () => {
         setIsCartOpen(false);
     };
 

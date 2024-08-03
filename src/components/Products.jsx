@@ -8,6 +8,11 @@ import { useNavigate } from 'react-router-dom';
 import Popup from './Popup';
 import { addStuff } from '../redux/userHandle';
 
+import { useNavigate } from 'react-router-dom';
+
+const navigate = useNavigate();
+
+
 const Products = ({}) => {
   const dispatch = useDispatch();
 

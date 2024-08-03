@@ -1,6 +1,10 @@
 import React from "react";
 import { Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle, Slide } from "@mui/material";
 import { GreenButton, RedButton } from "../utils/buttonStyles";
+const taskHandler = () => {
+    // Your task handler logic
+  };
+  
 
 const AlertDialogSlide = ({ dialog, showDialog, setShowDialog }) => {
     const handleClose = () => {
